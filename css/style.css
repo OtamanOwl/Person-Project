@@ -1,0 +1,40 @@
+header{
+    background-color: #012D63;
+}
+
+.header-logo{
+    width: 100px;
+    height: 60px;
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.nav-item{
+    margin: 30px;
+    color: #c7c7c7;
+    font-weight: 300;
+}
+.lang-list{
+    color: #c7c7c7;
+    display: flex;
+    
+}
+.lang-item{
+    margin: 2px;
+}
+.hover{
+    color: #FFF;
+    font-weight: 300;
+}
+
+.first-section-wrap{
+    background-image: url(./img/main-sect1.webp) ;
+}
+
+
+footer{
+    background-color: #021635;
+}
