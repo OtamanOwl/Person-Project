@@ -5,38 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nike ColoRawe</title>
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
           integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
           crossorigin="anonymous"
           referrerpolicy="no-referrer" />
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Playfair+Display&family=Roboto:wght@300;400&display=swap"
+          rel="stylesheet">
     <link rel="stylesheet"
           href="./css/reset.css">
     <link rel="stylesheet"
           href="./css/style.css">
+
 </head>
 
 <body>
     <header>
-        <div class="container"><a href="#"
-               class="header-logo-link"><img src="img/logo.webp"
-                     alt="logo"
-                     class="header-logo"></a>
-            <nav class="nav-wrap">
-                <ul class="nav-list">
-                    <li class="hover nav-item">Main page</li>
-                    <li class="nav-item">benefits</li>
-                    <li class="nav-item">advantages</li>
-                    <li class="nav-item">reviews</li>
-                    <li class="nav-item">contacts</li>
-                    <li class="nav-item">order</li>
+        <div class="container">
+            <div class="header-wrap">
+                <a href="./index.html"
+                   class="header-logo-link"><img src="img/logo.webp"
+                         alt="logo"
+                         class="header-logo">
+                </a>
+                <nav class="nav-wrap">
+                    <ul class="nav-list">
+                        <li class="hover nav-item">Main page</li>
+                        <li class="nav-item">benefits</li>
+                        <li class="nav-item">advantages</li>
+                        <li class="nav-item">reviews</li>
+                        <li class="nav-item">contacts</li>
+                        <li class="nav-item">order</li>
+                    </ul>
+                </nav>
+                <ul class="lang-list">
+                    <li class="lang-item">Ua</li>
+                    <li class="hover lang-item">Eng</li>
                 </ul>
-            </nav>
-            <ul class="lang-list">
-                <li class="lang-item">Ua</li>
-                <li class="hover lang-item">Eng</li>
-            </ul>
+            </div>
         </div>
 
     </header>
@@ -45,11 +57,10 @@
 
         <section class="first-section-wrap">
             <div class="container">
-                <a href="index.html">
-                    <img src="img/logo.webp"
-                         alt="logo"
-                         class="main-logo">
-                </a>
+
+                <img src="img/logo.webp"
+                     alt="logo"
+                     class="main-logo">
 
                 <p class="main-logo-text">C&R</p>
 
@@ -66,15 +77,21 @@
         <section class="secnd-section-wrap">
             <div class="advantages-wrap container">
                 <ul class="advantages">
-                    <li>
+                    <li class="adv-item">
                         <p>Premium Quality</p>
                         <img src="./img/5stars.webp"
                              alt="5stars">
                     </li>
-                    <li>Indelible paint
-
+                    <li class="adv-item">
+                        <img src="./img/paintings.webp"
+                             alt="paints">
+                        <p>Indelible paint</p>
                     </li>
-                    <li>Fast shipping</li>
+                    <li class="adv-item">
+                        <p>Fast shipping</p>
+                        <img src="./img/truck.webp"
+                             alt="cargo">
+                    </li>
                 </ul>
             </div>
         </section>

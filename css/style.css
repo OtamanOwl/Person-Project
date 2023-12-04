@@ -1,24 +1,44 @@
+:root {
+    --header-color: #012D63 ;
+    --fff-color: white;
+    --header-nav: #C7C7C7;
+    --bg-button: #8E32C6;
+    --span-color: #D8D8D8;
+    --footer-bg: #021635;
+    --input-color: #959595;
+}
 header{
     background-color: #012D63;
+}
+
+.container{
+    width: 1140px;
+    padding: 0 15px;
+}
+
+.header-wrap{
+    display: flex;
 }
 
 .header-logo{
     width: 100px;
     height: 60px;
+    padding: 0 168px;
     display: flex;
 }
 
 .nav-list{
     display: flex;
+    padding: 30px 33px;
 }
 
 .nav-item{
     margin: 30px;
-    color: #c7c7c7;
+    color: var(--header-nav);
     font-weight: 300;
 }
 .lang-list{
-    color: #c7c7c7;
+    color:var(--header-nav);
     display: flex;
     
 }
@@ -31,9 +51,48 @@ header{
 }
 
 .first-section-wrap{
-    background-image: url(./img/main-sect1.webp) ;
+    background-image: url(../img/main-sect1.webp) ;
+}
+.main-logo{
+    width: 160px;
+    height: 120px;
 }
 
+.main-logo-text{
+    color: #FFF;
+    font-size: 48px;
+    font-family: PT Serif;
+    font-weight: 400;
+}
+
+.title{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+}
+
+.under-title{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.main-main-text{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+}
+
+.buy-button{
+    padding: 20px 61px;
+    border-radius: 10px;
+    background: var(--bg-button);
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+}
 
 footer{
     background-color: #021635;
